@@ -150,14 +150,13 @@ window.onbeforeunload = function () {
   localStorage.setItem("x", string);
 };
 
-$(document).on("keypress", function (e) {
-  var key = e.key;
-
-  for (var i = 0; i < hashMap.length; i++) {
-    if (hashMap[i].logo.toLowerCase() === key) {
-      window.open(hashMap[i].url);
-    }
-  }
-});
+// $(document).on("keypress", (e) => {
+//   const { key } = e;
+//   for (let i = 0; i < hashMap.length; i++) {
+//     if (hashMap[i].logo.toLowerCase() === key) {
+//       window.open(hashMap[i].url);
+//     }
+//   }
+// });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.214a3486.map
+//# sourceMappingURL=main.68fa79e2.map
